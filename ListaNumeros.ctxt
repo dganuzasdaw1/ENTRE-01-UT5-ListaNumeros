@@ -1,0 +1,48 @@
+#BlueJ class context
+comment0.target=ListaNumeros
+comment1.params=n
+comment1.target=ListaNumeros(int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ ListaNumeros\ \r\n\ Crea\ e\ inicializa\ adecuadamente\ los\r\n\ atributos\r\n\ \r\n\ @param\ n\ el\ tama\u00F1o\ m\u00E1ximo\ del\ array\r\n
+comment10.params=
+comment10.target=int[]\ expandir()
+comment10.text=\r\n\ a\ partir\ de\ un\ array\ de\ pares\ contador/valor\ crea\ y\ devuelve\r\n\ un\ nuevo\ array\ resultado\ de\ expandir\ estos\ pares\ contador/valor\r\n\ \ \r\n\ \ \ Si\ numeros\ \=\ \ {3,\ 8,\ 4,\ 2,\ 0,\ 42,\ 5,\ 1}\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\ \ |\ \ |\ \ |\ \ |\ \ \ |\ \ |\ \ |\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +--+\ \ +--+\ \ +---+\ \ +--+\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ par\ \ \ \ par\ \ \ \ par\ \ \ par\ \r\n\ \r\n\ \ se\ devuelve\:\ {8,\ 8,\ 8,\ 2,\ 2,\ 2,\ 2,\ 1,\ 1,\ 1,\ 1,\ 1}\r\n\ (ver\ detalles\ en\ el\ enunciado)\r\n
+comment11.params=valor
+comment11.target=boolean\ esImpar(int)
+comment11.text=\r\n\ @param\ valor\ el\ n\u00BA\ a\ analizar\r\n\ @return\ true\ si\ valor\ es\ impar,\ false\ en\ otro\ caso\r\n
+comment12.params=
+comment12.target=void\ reorganizarParesImpares()
+comment12.text=\r\n\ \ Modifica\ la\ lista\ reorganizando\ los\ valores\ pares\ e\ impares,\ los\ pares\ se\r\n\ \ colocan\ al\ principio\ y\ los\ impares\ al\ final.\ Se\ mantiene\ el\ orden\ de\ ambos\r\n\ \ \r\n\ \ Se\ har\u00E1\ recorriendo\ una\ sola\ vez\ la\ lista\ y\ sin\ \ usar\ ning\u00FAn\ otro\ array\ auxiliar\r\n\ \r\n\ \ Si\ numeros\ \=\ {3,\ 7,\ 4,\ 9,\ 2,\ 5,\ 8,\ 11,\ 13}\ \r\n\ \ despu\u00E9s\ de\ reorganizarParesImpares()\ quedar\u00EDa\ {4,\ 2,\ 8,\ 3,\ 7,\ 9,\ 5,\ 11,\ 13}\r\n
+comment13.params=
+comment13.target=ListaNumeros\ nuevaLista()
+comment13.text=\r\n\ \ Usando\ m\u00E9todos\ de\ la\ clase\ Arrays\ haz\ una\ copia\ \r\n\ \ de\ numeros\ al\ tama\u00F1o\ indicado\ por\ su\ longitud\ l\u00F3gica\r\n\ \ Ordena\ esta\ copia\r\n\ \ Crea\ y\ devuelve\ un\ nuevo\ objeto\ ListaNumeros\ \r\n\ \ que\ incluya\ los\ elementos\ del\ array\ ordenado\r\n
+comment14.params=
+comment14.target=int[][]\ toArray2D()
+comment14.text=\r\n\ devuelve\ un\ array\ de\ 2\ dimensiones\ de\ 4\ filas\ y\ 4\ columnas\ \ \r\n\ y\ guarda\ en\ este\ array\ los\ elementos\ de\ numeros\ tal\ como\ indica\ el\ enunciado\r\n\ \r\n\ \ Si\ numeros\ \=\ {3,\ 7,\ 4,\ 9,\ 2,\ 5,\ 8,\ 11,\ 13}\r\n\ \ el\ nuevo\ array\ tendr\u00E1\ {\ {3,\ 7,\ 4,\ 9},\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {2,\ 5,\ 8,\ 11}\ ,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {13,\ 0,\ 0,\ 0}\ ,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {0,\ 0,\ 0,\ 0}\ }\r\n\ \r\n
+comment15.params=args
+comment15.target=void\ main(java.lang.String[])
+comment15.text=\r\n\ Punto\ de\ entrada\ a\ la\ aplicaci\u00F3n\r\n\ Contiene\ c\u00F3digo\ para\ probar\ los\ m\u00E9todos\ de\ ListaNumeros\r\n
+comment2.params=numero
+comment2.target=boolean\ addElemento(int)
+comment2.text=\r\n\ @param\ numero\ el\ valor\ que\ se\ a\u00F1ade\ al\ final\ de\ numeros.\ No\ se\ hace\ nada\ si\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ el\ array\ est\u00E1\ completo\ o\ ya\ est\u00E1\ el\ elemento\r\n\ @return\ true\ si\ se\ ha\ podido\ a\u00F1adir,\ false\ en\ otro\ caso\r\n\ \r\n\ asumimos\ que\ numero\ es\ >\=\ 0\ (no\ hay\ que\ comprobarlo)\r\n
+comment3.params=
+comment3.target=boolean\ estaCompleta()
+comment3.text=\r\n\ devuelve\ true\ si\ numeros\ est\u00E1\ completo,\ false\ en\ otro\ caso\ Hazlo\ sin\ if\r\n
+comment4.params=
+comment4.target=boolean\ estaVacia()
+comment4.text=\r\n\ devuelve\ true\ si\ la\ lista\ est\u00E1\ vac\u00EDa,\ false\ en\ otro\ caso.\ Hazlo\ sin\ if\r\n
+comment5.params=
+comment5.target=int\ getTotalNumeros()
+comment5.text=\r\n\ devuelve\ el\ n\u00BA\ de\ elementos\ realmente\ guardados\ en\ la\ lista\r\n
+comment6.params=
+comment6.target=void\ vaciarLista()
+comment6.text=\r\n\ Vac\u00EDa\ la\ lista\r\n
+comment7.params=numero
+comment7.target=boolean\ estaElemento(int)
+comment7.text=\r\n\ @param\ numero\ el\ valor\ a\ buscar\r\n\ @return\ true\ si\ se\ encuentra,\ false\ en\ otro\ caso\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Representaci\u00F3n\ textual\ de\ la\ lista\ de\ la\ forma\ indicada\ \ (ver\ enunciado)\r\n\ Si\ numeros\ \=\ {14,\ 8,\ 13,\ 9,\ 11,\ 5,\ 3,\ 10,\ 7,\ 1}\r\n\ \ devuelve\ |\ 14\ |\ 8\ |\ 13\ |\ 9\ |\ 11\ |\ 5\ |\ 3\ |\ 10\ |\ 7\ |\ 1\ |\r\n\ \r\n\ Si\ la\ lista\ est\u00E1\ vac\u00EDa\ devuelve\ |\ |\r\n
+comment9.params=
+comment9.target=void\ escribirLista()
+comment9.text=\r\n\ Mostrar\ en\ pantalla\ la\ lista\r\n
+numComments=16
